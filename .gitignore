@@ -1,46 +1,63 @@
+
+# Python ignorables
+logs/
+__pycache__/
 *.py[cod]
-
-# C extensions
+*$py.class
 *.so
-
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+sdist/
+var/
+wheels/
+*.egg-info/
 .installed.cfg
-lib
-lib64
-__pycache__
+*.egg
 
-# Installer logs
 pip-log.txt
-
-# Unit test / coverage reports
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
 .coverage
-.tox
+.coverage.*
+.cache
 nosetests.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
-
-# SQLite databases
-*.sqlite
-
-# Virtual environment
-venv
-
-# Environment files
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+venv/
 .env
-.env-mysql
+.env.*
+
+# Ignore all directories containing pyvenv.cfg
+**/pyvenv.cfg
+**/*/pyvenv.cfg
+
+# Node.js ignorables
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+.env
+.env.test
+.cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.file_activity_report.json
+*.db
+core.*
+.core
+*.log
+post_process_status.lock
