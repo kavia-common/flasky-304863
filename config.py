@@ -42,7 +42,10 @@ class TestingConfig(Config):
 class ProductionConfig(Config):
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
         'sqlite:///' + os.path.join(basedir, 'data.sqlite')
-    SERVER_NAME = os.environ['SERVER_NAME']  # configure the domain name in use
+
+    # In single-container / preview deployments SERVER_NAME may not be set.
+    # Defaulting prevents import-time failure and allows Flasky to boot.
+    SERVER_NAME = os.environ.get('SERVER_NAME', 'localhost')  # configure the domain name in use
 
     @classmethod
     def init_app(cls, app):
