@@ -1473,3 +1473,257 @@
 2026-01-17 18:13:19,472 - Knowledge - INFO - ⚡ Total Redis path: 0.96s (vs ~300s from disk)
 2026-01-17 18:13:19,679 - Knowledge - INFO - Saving knowledge to Redis...
 2026-01-17 18:13:19,911 - Knowledge - INFO - Knowledge saved to Redis successfully
+2026-01-17 18:16:58,435 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-01-17 18:16:58,763 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-01-17 18:16:58,991 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-01-17 18:16:59,150 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-01-17 18:17:00,234 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2026-01-17 18:17:00,391 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2026-01-17 18:17:00,625 - Knowledge - INFO - load persisted knowledge: begin
+2026-01-17 18:17:00,820 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:01,038 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:01,247 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/requirements/dev.txt
+2026-01-17 18:17:01,443 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:01,625 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:01,818 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/api/authentication.py
+2026-01-17 18:17:02,035 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:02,196 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:02,369 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/user.html
+2026-01-17 18:17:02,597 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:02,777 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:02,936 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/api/__init__.py
+2026-01-17 18:17:03,130 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:03,308 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:03,504 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/main/errors.py
+2026-01-17 18:17:03,678 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:03,845 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:04,031 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/403.html
+2026-01-17 18:17:04,235 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:04,428 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:04,642 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/auth/__init__.py
+2026-01-17 18:17:04,831 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:05,038 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:05,206 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/versions/456a945560f6_login_support.py
+2026-01-17 18:17:05,372 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:05,536 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:05,726 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/edit_post.html
+2026-01-17 18:17:05,899 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:06,062 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:06,241 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/env.py
+2026-01-17 18:17:06,450 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:06,608 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:06,788 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/unconfirmed.html
+2026-01-17 18:17:06,954 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:07,126 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:07,290 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/base.html
+2026-01-17 18:17:07,502 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:07,763 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:07,956 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/tests/test_api.py
+2026-01-17 18:17:08,164 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:08,356 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:08,549 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/requirements.txt
+2026-01-17 18:17:08,731 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:08,905 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:09,115 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/main/forms.py
+2026-01-17 18:17:09,286 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:09,493 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:09,680 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/email/confirm.txt
+2026-01-17 18:17:09,904 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:10,103 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:10,298 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/api/users.py
+2026-01-17 18:17:10,534 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:10,723 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:10,927 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/moderate.html
+2026-01-17 18:17:11,132 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:11,289 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:11,465 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/static/styles.css
+2026-01-17 18:17:11,634 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:11,794 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:11,959 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/change_password.html
+2026-01-17 18:17:12,152 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:12,372 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:12,577 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/versions/51f5ccfba190_comments.py
+2026-01-17 18:17:12,750 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:12,929 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:13,101 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/tests/test_selenium.py
+2026-01-17 18:17:13,302 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:13,485 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:13,716 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/requirements/common.txt
+2026-01-17 18:17:13,912 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:14,148 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:14,333 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/requirements/prod.txt
+2026-01-17 18:17:14,545 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:14,716 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:14,916 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/email/change_email.html
+2026-01-17 18:17:15,091 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:15,298 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:15,476 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/mail/new_user.txt
+2026-01-17 18:17:15,660 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:15,896 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:16,093 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/500.html
+2026-01-17 18:17:16,281 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:16,514 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:16,699 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/api/decorators.py
+2026-01-17 18:17:16,922 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:17,098 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:17,486 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/_comments.html
+2026-01-17 18:17:17,687 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:17,872 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:18,064 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/auth/views.py
+2026-01-17 18:17:18,242 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:18,428 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:18,631 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/versions/198b0eebcf9_caching_of_avatar_hashes.py
+2026-01-17 18:17:18,833 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:19,009 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:19,166 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/api/comments.py
+2026-01-17 18:17:19,386 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:19,542 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:19,755 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/followers.html
+2026-01-17 18:17:19,919 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:20,110 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:20,298 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/fake.py
+2026-01-17 18:17:20,515 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:20,669 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:20,858 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/versions/1b966e7f4b9e_post_model.py
+2026-01-17 18:17:21,104 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:21,289 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:21,473 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/email/reset_password.html
+2026-01-17 18:17:21,631 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:21,815 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:21,988 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/flasky.py
+2026-01-17 18:17:22,183 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:22,343 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:22,522 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/email/change_email.txt
+2026-01-17 18:17:22,701 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:22,898 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:23,099 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/exceptions.py
+2026-01-17 18:17:23,278 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:23,485 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:23,676 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/index.html
+2026-01-17 18:17:23,846 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:24,003 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:24,170 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/versions/2356a38169ea_followers.py
+2026-01-17 18:17:24,338 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:24,541 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:24,728 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/api/posts.py
+2026-01-17 18:17:24,879 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:25,067 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:25,242 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/email/reset_password.txt
+2026-01-17 18:17:25,413 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:25,620 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:25,839 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/404.html
+2026-01-17 18:17:26,004 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:26,199 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:26,360 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/_posts.html
+2026-01-17 18:17:26,561 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:26,763 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:26,936 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/requirements/docker.txt
+2026-01-17 18:17:27,098 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:27,266 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:27,470 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/main/views.py
+2026-01-17 18:17:27,649 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:27,863 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:28,036 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/versions/190163627111_account_confirmation.py
+2026-01-17 18:17:28,269 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:28,466 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:28,650 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/_macros.html
+2026-01-17 18:17:28,830 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:29,055 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:29,222 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/README.md
+2026-01-17 18:17:29,438 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:29,649 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:29,834 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/boot.sh
+2026-01-17 18:17:30,035 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:30,228 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:30,405 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/decorators.py
+2026-01-17 18:17:30,571 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:30,738 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:30,906 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/versions/288cd3dc5a8_rich_text_posts.py
+2026-01-17 18:17:31,105 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:31,303 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:31,457 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/api/errors.py
+2026-01-17 18:17:31,660 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:31,888 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:32,051 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/config.py
+2026-01-17 18:17:32,228 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:32,417 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:32,569 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/tests/test_basics.py
+2026-01-17 18:17:32,757 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:32,926 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:33,121 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/versions/d66f086b258_user_information.py
+2026-01-17 18:17:33,292 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:33,446 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:33,608 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/versions/38c4e85512a9_initial_migration.py
+2026-01-17 18:17:33,787 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:33,963 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:34,123 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/docker-compose.yml
+2026-01-17 18:17:34,286 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:34,459 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:34,632 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/models.py
+2026-01-17 18:17:34,805 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:35,007 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:35,298 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/mail/new_user.html
+2026-01-17 18:17:35,511 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:35,675 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:35,833 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/login.html
+2026-01-17 18:17:36,019 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:36,216 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:36,423 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/main/__init__.py
+2026-01-17 18:17:36,604 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:36,766 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:36,970 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/tests/test_client.py
+2026-01-17 18:17:37,140 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:37,328 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:37,542 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/__init__.py
+2026-01-17 18:17:37,722 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:37,960 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:38,203 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/email/confirm.html
+2026-01-17 18:17:38,368 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:38,546 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:38,702 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/tests/test_user_model.py
+2026-01-17 18:17:38,899 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:39,104 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:39,276 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/edit_profile.html
+2026-01-17 18:17:39,436 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:39,629 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:39,825 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/reset_password.html
+2026-01-17 18:17:40,003 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:40,166 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:40,328 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/register.html
+2026-01-17 18:17:40,518 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:40,731 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:40,896 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/versions/56ed7d33de8d_user_roles.py
+2026-01-17 18:17:41,128 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:41,321 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:41,557 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/migrations/alembic.ini
+2026-01-17 18:17:41,729 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:41,893 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:42,074 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/post.html
+2026-01-17 18:17:42,246 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:42,427 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:42,622 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/templates/auth/change_email.html
+2026-01-17 18:17:42,805 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:42,974 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:43,152 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/auth/forms.py
+2026-01-17 18:17:43,332 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:43,549 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:43,795 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/requirements/heroku.txt
+2026-01-17 18:17:43,954 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/flasky-304863.git:kavia-master
+2026-01-17 18:17:44,120 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f3ee9891750>
+2026-01-17 18:17:44,323 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/304863/b3936pr/flasky-304863/app/email.py
+2026-01-17 18:17:44,508 - Knowledge - INFO - Loaded 77 files from persisted knowledge
+2026-01-17 18:17:44,703 - Knowledge - INFO - load persisted knowledge: end
+2026-01-17 18:17:44,901 - Knowledge - INFO - Redis support added with prefix knowledge:b3936pr:
+2026-01-17 18:17:45,196 - Knowledge - INFO - Starting knowledge initialization for ID: PsAva4-b3936pr
+2026-01-17 18:17:45,434 - Knowledge - INFO - 🔍 Checking Redis for build_id: b3936pr
+2026-01-17 18:17:45,615 - Knowledge - INFO - 🔍 Full session ID: PsAva4-b3936pr
+2026-01-17 18:17:45,788 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b3936pr:
+2026-01-17 18:17:45,959 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2026-01-17 18:17:46,151 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2026-01-17 18:17:46,356 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b3936pr
+2026-01-17 18:17:46,568 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2026-01-17 18:17:46,729 - Knowledge - INFO - ✅ Successfully loaded from Redis: 77 files
+2026-01-17 18:17:46,900 - Knowledge - INFO - ✅ Redis load complete: 77 files in 0.94s
+2026-01-17 18:17:47,053 - Knowledge - INFO - ⚡ Total Redis path: 0.94s (vs ~300s from disk)
+2026-01-17 18:17:47,272 - Knowledge - INFO - Saving knowledge to Redis...
+2026-01-17 18:17:47,535 - Knowledge - INFO - Knowledge saved to Redis successfully
